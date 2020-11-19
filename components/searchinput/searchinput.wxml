@@ -1,0 +1,5 @@
+<view class="search-input">
+  <navigator url="/pages/search/index" open-type="navigate">
+  输入热词 推荐江门景点
+  </navigator>
+</view>

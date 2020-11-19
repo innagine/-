@@ -1,0 +1,49 @@
+<!-- 搜索框 -->
+<view class="search">
+  <searchinput2></searchinput2>
+</view>
+<!-- 搜索框--结束 -->
+
+<!-- Tabs开始 -->
+<!-- 监听自定义事件 -->
+<tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <block wx:if="{{tabs[0].isActive}}">
+    
+    <!-- 统计图开始 -->
+    <view class="container">
+    <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+    </view>
+    <!-- 统计图结束 -->
+    <!-- 按钮开始 -->
+    <view class="button">
+    <view>自然风光</view>
+    <view>人文文化</view>
+    <view>游玩娱乐</view>
+    </view>
+    <!-- 按钮结束 -->
+
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}">
+    <!-- 统计图开始 -->
+    <view class="container">
+    <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+    </view>
+    <!-- 统计图结束 -->
+    <!-- 按钮开始 -->
+    <view class="button">
+    <view>自然风光</view>
+    <view>人文文化</view>
+    <view>游玩娱乐</view>
+    </view>
+    <!-- 按钮结束 -->
+
+
+
+  </block>
+</tabs>
+<!-- Tabs结束 -->
+
+
+
+
+

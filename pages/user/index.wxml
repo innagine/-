@@ -1,0 +1,23 @@
+
+<view class="mine">
+<!-- 个人头像 -->
+<view class="user-portrait">
+  <open-data type="userAvatarUrl" class="userinfo1" id="userinfo">
+  </open-data>
+</view>
+<!-- 用户名称 -->
+<view class="user-name">
+  <open-data type="userNickName"  id="userinfo">
+  </open-data>
+</view>
+</view>
+
+<!-- 内容信息 -->
+<view class="my_bg">
+  <view class="my_box">
+    <view class="Order" bindtap="onclickOrder">我的收藏</view>
+    <view class="Order">联系我们</view>
+    <view class="Order">意见反馈</view>
+    <view class="Order">版权@秃头战队</view>
+  </view>
+</view>

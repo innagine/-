@@ -1,0 +1,57 @@
+/* 轮播图 */
+swiper-item navigator image{
+border-radius: 15rpx;
+width: 97%;
+}
+.index_seiper{
+  margin-top: 10rpx;
+}
+
+/* 标题 */
+.title{
+  width: 100%;
+  height: 120rpx;
+  font-size: 38rpx;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 地址框 */
+.address{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  border-top:  1rpx rgb(221, 219, 219) solid;
+  padding-left: 40rpx;
+
+  /* 多余字体隐藏 */
+  overflow: hidden;
+  /* 单行显示 */
+  white-space: nowrap;
+  /* 多出文字转变成省略号 */
+  text-overflow: ellipsis;
+}
+
+
+/* 综合评分框 */
+.title_1{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  border-top:  1rpx rgb(221, 219, 219) solid;
+  border-bottom: 5rpx rgb(221, 219, 219) solid;
+  padding-left: 40rpx;
+}
+
+
+/* 统计图 */
+.container {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 930rpx;
+	right: 0;
+}

@@ -1,0 +1,51 @@
+<!-- 轮播图开始 -->
+<view class="index_seiper">
+   <swiper>
+      <swiper-item>
+        <navigator>
+        <image  mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592192373829&di=f815680380cea54946d3c9680e8e7fa5&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181211%2Ffa7539a7ab8044f6bc5ddd2e11d63a22.jpeg"></image>
+        </navigator>
+      </swiper-item>          
+   </swiper>
+</view>
+<!-- 轮播图结束 -->
+
+
+<!-- 景点名称开始 -->
+<view class="title">{{placeObj.name}}</view>
+<!-- 景点名称结束 -->
+
+<!-- 地址框开始 -->
+<view class="address">地址：{{placeObj.adress}}</view>
+<!-- 地址框结束 -->
+
+
+<!-- 门票价格开始 -->
+<view class="address">门票价格：{{placeObj.price}}</view>
+<!-- 门票价格结束 -->
+
+<!-- 开放时间开始 -->
+<view class="address">开放时间：{{placeObj.open_date}}</view>
+<!-- 开放时间结束 -->
+
+<!--联系电话开始 -->
+<view class="address">联系电话：{{placeObj.call}}</view>
+<!-- 联系电话结束 -->
+
+<!--交通指引开始 -->
+<view class="address">交通指引：{{placeObj.traffic}}</view>
+<!-- 交通指引结束 -->
+
+<!-- 综合评分标题开始 -->
+<view class="title_1">景点综合评分</view>
+<!-- 综合评分标题结束 -->
+
+<!-- 统计图开始 -->
+  <view class="container">
+  <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+  </view>
+<!-- 统计图结束 -->
+
+<!-- 景区信息开始 -->
+<!-- <view class="info">景区信息：{{placeObj.info}}</view> -->
+<!-- 景区信息结束 -->

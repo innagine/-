@@ -1,0 +1,25 @@
+/* 统计图 */
+.container {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 385rpx;
+	right: 0;
+
+}
+
+/* 按钮 */
+
+.button view{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70rpx;
+  color: rgb(185, 184, 184);
+  border: 1rpx rgb(201, 199, 199) solid;
+  border-radius: 35px;
+  margin-top: 5rpx;
+}
+
+

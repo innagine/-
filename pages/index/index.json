@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchinput":"../../components/searchinput/searchinput",
+    "ec-canvas":"../../components/ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "文旅数据分析"
+}

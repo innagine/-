@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/login/index",
+    "pages/user/index",
+    "pages/search/index",
+    "pages/feedback/index",
+    "pages/detail/detail",
+    "pages/search2/index",
+    "pages/detail2/detail2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fdd75a",
+    "navigationBarTitleText": "文旅数据分析",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/数据-hover.png",
+        "selectedIconPath": "icons/数据.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "icons/分类-hover.png",
+        "selectedIconPath": "icons/分类.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "icons/用户-hover.png",
+        "selectedIconPath": "icons/用户.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

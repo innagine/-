@@ -1,0 +1,60 @@
+
+/* 头像背景 */
+.mine{
+  background-color:var(--themeColor);
+  width:100%;
+  height: 180px;
+}
+
+
+/* 个人头像 */
+.user-portrait{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* background: yellow; */
+  display: flex;
+  overflow:hidden;
+  text-align: center;
+  position: absolute;
+  top:30px;
+  left: 30px;
+  border: 3px solid white;
+}
+.user-portrait.userinfo1{
+  border-radius: 50%;
+}
+
+
+/* 用户名称 */
+.user-name{
+  position: absolute;
+  top:50px;
+  left: 130px;
+  color: white;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+
+/* 内容信息 */
+.my_bg{
+  background-color:  rgb(240, 240, 240);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+}
+
+.my_box{
+  margin: 0 auto;
+  margin-top: -60rpx;
+  width: 92%;
+}
+
+.Order{
+  margin-top: 20rpx;
+  padding: 30rpx;
+  background-color: white;
+  border-bottom: 2rpx solid rgb(238, 238, 238);
+  border-radius: 20rpx;
+}

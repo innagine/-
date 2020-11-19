@@ -1,0 +1,31 @@
+<!-- 搜索框 -->
+<view class="search">
+  <searchinput></searchinput>
+</view>
+<!-- 搜索框--结束 -->
+
+
+
+<!-- 轮播图开始 -->
+<view class="index_seiper">
+   <swiper>
+      <swiper-item>
+        <navigator>
+        <image  mode="widthFix" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=850808594,1726559499&fm=26&gp=0.jpg"></image>
+        </navigator>
+      </swiper-item> 
+      <swiper-item>
+        <navigator>
+        <image  mode="widthFix" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=979516907,411737023&fm=26&gp=0.jpg"></image>
+        </navigator>
+      </swiper-item>           
+   </swiper>
+</view>
+<!-- 轮播图结束 -->
+
+
+<!-- 统计图表开始 -->
+<view class="box">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+<!-- 统计图表结束 -->

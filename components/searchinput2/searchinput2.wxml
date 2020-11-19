@@ -1,0 +1,6 @@
+<view class="search-input">
+  <navigator url="/pages/search2/index" open-type="navigate">
+  输入热词 推荐深圳景点
+  </navigator>
+</view>
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchinput2": "../../components/searchinput2/searchinput2",
+    "tabs": "../../components/tabs/tabs",
+    "ec-canvas": "../../components/ec-canvas/ec-canvas"},
+    "navigationBarTitleText": "景区类型比例分布"
+}

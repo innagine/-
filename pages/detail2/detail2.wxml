@@ -1,0 +1,47 @@
+<!-- 轮播图开始 -->
+<view class="index_seiper">
+   <swiper>
+      <swiper-item>
+        <navigator>
+        <image  mode="widthFix" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=777033420,1642841030&fm=15&gp=0.jpg"></image>
+        </navigator>
+      </swiper-item>          
+   </swiper>
+</view>
+<!-- 轮播图结束 -->
+
+
+<!-- 景点名称开始 -->
+<view class="title">{{placeObj.name}}</view>
+<!-- 景点名称结束 -->
+
+<!-- 地址框开始 -->
+<view class="address">地址：{{placeObj.adress}}</view>
+<!-- 地址框结束 -->
+
+
+<!-- 门票价格开始 -->
+<view class="address">门票价格：{{placeObj.price}}</view>
+<!-- 门票价格结束 -->
+
+<!-- 开放时间开始 -->
+<view class="address">开放时间：{{placeObj.open_date}}</view>
+<!-- 开放时间结束 -->
+
+<!--联系电话开始 -->
+<view class="address">联系电话：{{placeObj.call}}</view>
+<!-- 联系电话结束 -->
+
+<!--交通指引开始 -->
+<view class="address">交通指引：{{placeObj.traffic}}</view>
+<!-- 交通指引结束 -->
+
+<!-- 综合评分标题开始 -->
+<view class="title_1">景点综合评分</view>
+<!-- 综合评分标题结束 -->
+
+<!-- 统计图开始 -->
+  <view class="container">
+  <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+  </view>
+<!-- 统计图结束 -->
